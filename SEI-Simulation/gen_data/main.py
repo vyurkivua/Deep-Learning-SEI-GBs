@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 def main():
     # def generate_and_process_datasets():
-    quantity = 5
+    quantity = 1
     configfolder = 'SEI'
     configfile = 'config_SEI_HRTEM.json'
 
