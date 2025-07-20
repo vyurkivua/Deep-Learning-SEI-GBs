@@ -1,5 +1,5 @@
 import os
-from utils_dataset_creation import get_files, assign_classes, surface_orientations, create_dataset, split_dataset, \
+from utils_dataset_creation import get_files, assign_classes, surface_orientations, split_dataset, \
     save_dictionary, suppress_stdout_stderr, create_dataset_subprocess
 from tqdm import tqdm
 
