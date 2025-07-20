@@ -28,7 +28,7 @@
                       "spot_size": 0.4,
                       "STEM_kwargs":{"slice_thickness":0.2,
                                             "probe": 2,
-                                            "v0": [180,200],
+                                            "v0": [180,220],
                                             "alpha": [15,20],
                                             "defocus": [-250,-150],
                                             "Cs" : [180,220],
@@ -40,7 +40,7 @@
                       "HRTEM_kwargs": {"defocus": [-250,-150],
                                           "Cs" : [-150000,150000],
                                           "astig_mag": [0,50],
-                                          "astig_angle" : [0,6.28],
+                                          "astig_angle" : [0,6],
                                           "focal_spread" : [20,40],
                                           "blur": [0,0.6],
                                           "dose": [800,1400],
@@ -57,23 +57,6 @@
     "horovod" : true,
     "mixed_precision" : false,
 
-    "batch_size" : 8,
-    "input_shape" : 256,
-    "num_chemical_elements" : "",
-    "pre_trained_weights_path" : "",
-    "pre_trained_layers_at" : "",
-    "pretrained" : false,
-    "freeze" : false,
-    "num_chemical_elements_pre_trained_model" : 5,
-
-    "optimizer" : "adam",
-    "learning_rate" : 1e-3,
-    "loss" : "MSE",
-
-
-    "first_epoch" : 0,
-    "num_epochs" : 500,
-    "save_every" : 10
   },
 
   "plot_kwargs": {

@@ -7,7 +7,7 @@
 
   "batch_size": 32,
   "num_workers": 0,
-  "max_epochs": 100,
+  "max_epochs": 10,
 
   "encoder_name": "mit_b5",
   "arch": "FPN"
