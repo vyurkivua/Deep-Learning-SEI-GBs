@@ -10,7 +10,6 @@ def main():
     configfile = 'config_SEI_HRTEM.json'
 
     rotation = 90
-    # script_dir = os.path.dirname(os.path.abspath(__file__))
 
     application_path = os.path.join(os.getcwd(), '..', 'applications', configfolder)
     json_path = os.path.join(application_path, 'json_templates', configfile)
