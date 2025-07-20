@@ -1,0 +1,14 @@
+{
+  "dataset_path": "../../Dataset_filtered",
+  "train_subdir": "train",
+  "test_subdir": "test",
+  "image_dir": "image",
+  "mask_dir": "label",
+
+  "batch_size": 32,
+  "num_workers": 0,
+  "max_epochs": 100,
+
+  "encoder_name": "mit_b5",
+  "arch": "FPN"
+}
