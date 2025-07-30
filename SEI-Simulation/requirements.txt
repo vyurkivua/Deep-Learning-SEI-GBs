@@ -1,9 +1,4 @@
-albumentations==1.4.17
 numpy==1.23.5
 opencv-python==4.8.1.78
 pillow==9.3.0
 matplotlib==3.6.2
-torch==2.4.1
-torchvision==0.19.1
-pytorch-lightning==2.4.0
-scikit-learn==1.2.0
